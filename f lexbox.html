@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container {
+            height: 500px;
+            width: 100%;
+            border: 3px solid blue;
+            display: flex;
+            /* flex-direction: row;
+            flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            flex-flow: row-reverse wrap; */
+
+            /* It will justify the content horizontally */
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-around;
+            /* justify-content: safe; */
+
+            /* it will align the content vertically */
+            align-items: center;
+            align-items: flex-start;
+            align-items: flex-end;
+            align-items: stretch;
+        }
+
+        .menu {
+            width: 100px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 4px;
+        }
+        #items1{
+            /* order: 10; */
+            /* flex-grow: 4; */
+        }
+        #items2{
+            /* order: 20; */
+            /* flex-shrink: 3; */
+            /* flex-basis: 500px; */
+            align-items: center;
+        }
+        #items3{
+            /* order: 15; */
+            /* flex-grow: 5; */
+            align-items: flex-end;
+        }
+        #items4{
+            /* flex: 2 2 400px; */
+            align-items: flex-start;
+        }
+        #items5{
+            align-items: center;
+        }
+        #items6{
+            align-items: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Fexbox items</h2>
+    <div class="container">
+        <div class="menu" id="items1">First item</div>
+        <div class="menu" id="items2">Second item</div>
+        <div class="menu" id="items3">Third item</div>
+        <div class="menu" id="items4">Fourth item</div>
+        <div class="menu" id="items5">Fifth item</div>
+        <div class="menu" id="items6">Sixth item</div>
+    </div>
+
+</body>
+
+</html>

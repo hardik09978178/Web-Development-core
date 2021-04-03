@@ -1,0 +1,3 @@
+- To create a circular boundary over to an image use % for the value instaed of px.
+- refer box shadow again.
+-To apply more than one color shade"background: linear-gradient(90deg, red, yellow, rgb(204, 204, 255));"

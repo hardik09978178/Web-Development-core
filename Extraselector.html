@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector more options</title>
+    <style>
+        /* div li p{
+            color: pink;
+            background-color:brown;
+        } */
+
+        /* div p li{
+            color: blue;
+            background-color: blanchedalmond;
+        } */
+        /* div>p{
+            color: white;
+            background-color: black;
+        } */
+        
+        div +p{
+            color: rgb(94, 2, 94);
+            background-color: aqua;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <li> i m top</li>
+            <p>I am top</p>
+
+        </div>
+        <ul>
+            <li>I am the list content</li>
+            <p>I am useless
+                <li>yes i m inside</li>
+            </p>
+
+        </ul>
+    </div>
+    <p>I am at the outside of the div</p>
+
+    
+</body>
+</html>

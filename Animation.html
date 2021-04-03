@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and animation</title>
+    <style>
+        .container {
+            background-color: brown;
+        }
+
+        .box {
+            background-color: rgb(206, 134, 134);
+            width: 350px;
+            height: 350px;
+            position: relative;
+            /* animation-name: Hardikhd; */
+            animation-name: hd18;
+            animation-duration: 2s;
+            animation-iteration-count: 8;
+            /* animation-fill-mode: alternate;
+            animation-timing-function: ease-in-out; */
+            /* animation-delay: 2s; */
+            /* animation-direction: alternate-reverse; */
+        }
+
+        @keyframes hd18 {
+            0% {
+                top: 0px;
+                left: 0px;
+            }
+
+            25% {
+                top: 0px;
+                left: 250px;
+            }
+
+            75% {
+                top: 250px;
+                left: 250px;
+            }
+
+            100% {
+                top: 250px;
+                left: 0px;
+            }
+
+        }
+
+        @keyframes Hardikhd {
+            from {
+                width: 200px;
+            }
+
+            to {
+                width: 600px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            animation effect
+        </div>
+    </div>
+</body>
+</html>

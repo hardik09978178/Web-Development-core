@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadows and text shadows</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 25px 12px;
+            margin: 25px 12px;
+            background-color: rgb(94, 57, 0);
+            box-shadow: 10px 12px rgb(1, 1, 50);
+            border:  2px solid red;
+            box-shadow: -10px -11px red;    
+            box-shadow: 7px 12px 10px 8px brown;
+            box-shadow: inset 8px 10px greenyellow;
+            box-shadow: 5px 6px red, 2px 5px rgb(128, 0, 49);
+            box-shadow: 6px 9px rgba(18, 81, 25, 45);
+        }
+        .card h3{
+            color: rgb(230, 221, 220);
+            text-shadow: 2px 2px 4px 9px rgb(1, 42, 61);
+            text-shadow: 2px 3px rgba(18, 81, 25, 45);
+            text-shadow: -6px -5px brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h3>This is c++ course</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, numquam? Fugiat soluta hic ad,
+                odio, maxime ipsa praesentium officia esse fuga necessitatibus voluptatem quaerat itaque velit illum at
+                sunt delectus obcaecati, sequi libero accusantium earum saepe nulla? Vel.
+            </p>
+        </div>
+        <div class="card" id="card-2">
+            <h3>This is web development cousre</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, numquam? Fugiat soluta hic ad,
+                odio, maxime ipsa praesentium officia esse fuga necessitatibus voluptatem quaerat itaque velit illum at
+                sunt delectus obcaecati, sequi libero accusantium earum saepe nulla? Vel.
+            </p>
+        </div>
+        <div class="card" id="card-3">
+            <h3>This is python course</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, numquam? Fugiat soluta hic ad,
+                odio, maxime ipsa praesentium officia esse fuga necessitatibus voluptatem quaerat itaque velit illum at
+                sunt delectus obcaecati, sequi libero accusantium earum saepe nulla? Vel.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
